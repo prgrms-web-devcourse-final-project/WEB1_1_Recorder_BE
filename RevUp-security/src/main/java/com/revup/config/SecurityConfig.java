@@ -95,6 +95,7 @@ public class SecurityConfig {
 
         return httpSecurity.build();
     }
+
     // 특정 URI 필터 제외
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
